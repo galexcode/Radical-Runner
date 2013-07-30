@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C0ED0687-CEA0-1DD6-C166-57D4D64F84D7}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_4;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_IOS;UNITY_IPHONE;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\AdvancedPinchRotationSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\FingerEventsSamplePart1.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\FingerEventsSamplePart2.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\BasicSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\DragTrail.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\EmitParticles.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\MenuNode.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SampleBase.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SampleUI.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\StartMenu.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SwipeParticlesEmitter.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\MultiFingerSwipeSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\OneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\PinchRotationSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxDragDropSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxFingerEventsSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxOneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\TwoFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\TouchPhaseVisualizer.cs" />
+     <Compile Include="Assets\FingerGestures\SkeletonCode\CSharpSkeleton.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\Misc\TBDragOrbit.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\Misc\TBPinchZoom.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBComponent.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBDrag.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBFingerDown.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBFingerUp.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBInputManager.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBLongPress.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBSwipe.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBTap.cs" />
+     <Compile Include="Assets\FingerGestures\Utils\GestureStateTracker.cs" />
+     <Compile Include="Assets\FingerGestures\Utils\MoveToFinger.cs" />
+     <Compile Include="Assets\Scripts\AudioControl.cs" />
+     <Compile Include="Assets\Scripts\BackGroundScrolling.cs" />
+     <Compile Include="Assets\Scripts\BonusDownBehavior.cs" />
+     <Compile Include="Assets\Scripts\ButtonPositionScreenArrow.cs" />
+     <Compile Include="Assets\Scripts\BuzzScript.cs" />
+     <Compile Include="Assets\Scripts\ClipBoard.cs" />
+     <Compile Include="Assets\Scripts\ClipBoardGrade.cs" />
+     <Compile Include="Assets\Scripts\ClipBoardText.cs" />
+     <Compile Include="Assets\Scripts\CreditsGoBack.cs" />
+     <Compile Include="Assets\Scripts\DisplayHighScores.cs" />
+     <Compile Include="Assets\Scripts\DragDetectorScript.cs" />
+     <Compile Include="Assets\Scripts\GameCenter.cs" />
+     <Compile Include="Assets\Scripts\GameCenterScore.cs" />
+     <Compile Include="Assets\Scripts\GateBehavior.cs" />
+     <Compile Include="Assets\Scripts\Highscores.cs" />
+     <Compile Include="Assets\Scripts\HourGlassEffect.cs" />
+     <Compile Include="Assets\Scripts\InkBlob.cs" />
+     <Compile Include="Assets\Scripts\InstructionSceneArrows.cs" />
+     <Compile Include="Assets\Scripts\LaserMove.cs" />
+     <Compile Include="Assets\Scripts\LastObject.cs" />
+     <Compile Include="Assets\Scripts\LevelDisplay.cs" />
+     <Compile Include="Assets\Scripts\LevelFinishScroll.cs" />
+     <Compile Include="Assets\Scripts\MoveProgressBar.cs" />
+     <Compile Include="Assets\Scripts\NewLevelText.cs" />
+     <Compile Include="Assets\Scripts\OrbLaser.cs" />
+     <Compile Include="Assets\Scripts\OrbLaser2.cs" />
+     <Compile Include="Assets\Scripts\PauseButton.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\Scripts\PauseMenuScene.cs" />
+     <Compile Include="Assets\Scripts\PowerUp.cs" />
+     <Compile Include="Assets\Scripts\QuickMoveTemplate.cs" />
+     <Compile Include="Assets\Scripts\RedSpriteFade.cs" />
+     <Compile Include="Assets\Scripts\RunnerCollision.cs" />
+     <Compile Include="Assets\Scripts\RunnerScoring.cs" />
+     <Compile Include="Assets\Scripts\RunnerScoringMulti.cs" />
+     <Compile Include="Assets\Scripts\RunnerScript.cs" />
+     <Compile Include="Assets\Scripts\SpawnObstacles.cs" />
+     <Compile Include="Assets\Scripts\SpawnOnTouch.cs" />
+     <Compile Include="Assets\Scripts\Splat.cs" />
+     <Compile Include="Assets\Scripts\TapDetector.cs" />
+     <Compile Include="Assets\Scripts\TitleScreenControl.cs" />
+     <Compile Include="Assets\Scripts\TrailRender.cs" />
+     <Compile Include="Assets\Scripts\VolumeButton.cs" />
+     <Compile Include="Assets\Scripts\VolumeControl.cs" />
+     <Compile Include="Assets\Scripts\WarningBlink.cs" />
+     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
+     <None Include="Assets\ex2D\Core\Shaders\SpriteBlendClipping.shader" />
+     <None Include="Assets\FingerGestures\Readme.txt" />
+     <None Include="Assets\ex2D\Core\Shaders\SpriteBlend.shader" />
+ <Reference Include="Assets\ex2D\Core\ex2D.Runtime">
+ <HintPath>Assets\ex2D\Core\ex2D.Runtime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{B0689452-B4D3-1F73-F820-FE6F1984CC3D}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

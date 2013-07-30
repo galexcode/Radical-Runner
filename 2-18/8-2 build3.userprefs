@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelFinishScroll.cs">
+    <Files>
+      <File FileName="Assets/Scripts/TapDetector.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/SpawnOnTouch.cs" Line="61" Column="37" />
+      <File FileName="Assets/Scripts/SpawnObstacles.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/VolumeButton.cs" Line="38" Column="3" />
+      <File FileName="Assets/Scripts/VolumeControl.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/LevelFinishScroll.cs" Line="24" Column="71" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/runnerCollision.cs">
+    <Files>
+      <File FileName="Assets/Scripts/orbLaser.cs" Line="154" Column="1" />
+      <File FileName="Assets/Scripts/orbLaser2.cs" Line="157" Column="2" />
+      <File FileName="Assets/Scripts/spawnObstacles.cs" Line="334" Column="1" />
+      <File FileName="Assets/Scripts/runnerCollision.cs" Line="435" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
